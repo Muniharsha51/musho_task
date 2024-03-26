@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .footer{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+        justify-content: center;
+        position: relative; 
+      }
+      .footer h1{
+        color:aliceblue;
+        font-size: 300px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 0;
+      }
+      .foot {
+        color:white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between; 
+        width: 80%; 
+        margin-top: 20px; 
+      }
+      .foot a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+      }
+      .foot h5 {
+        color: white;
+        margin: 0; 
+      }
+      .footer hr {
+        width: 100%;
+        border: none;
+        height: 2px; 
+        background-color: white;
+        position: absolute;
+        bottom: 30%; 
+        transform: translateY(50%); 
+      }
+      .hello a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+      /* For mobile devices */
+@media only screen and (max-width: 600px) {
+  .footer {
+    height: auto;
+    padding: 20px; 
+  }
+  .footer h1 {
+    font-size: 150px;
+  }
+  .foot {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .foot a, .foot h5 {
+    margin: 5px 0;
+    text-align: center;
+  }
+  .hello {
+    margin-top: 20px; 
+  }
+}
+
+/* For desktop devices */
+@media only screen and (min-width: 601px) {
+  .footer {
+    height: 800px;
+  }
+  .footer h1 {
+    font-size: 300px;
+  }
+  .foot {
+    width: 80%;
+    margin-top: 20px;
+  }
+  .foot a, .foot h5 {
+    margin: 0;
+    text-align: left;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <div class="footer">
+        <h1><strong>musho</strong></h1>
+        <div class="foot">
+            <h5>All rights reserved</h5>
+            <div>
+                <a href="#">Docs</a>
+                <a href="#">Supports</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Release</a>
+            </div>
+        </div>
+        <div class="hello">
+           
+            <a href="https://www.youtube.com/@MushoAI"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzKfygGAv6R0TI5DQeFqMcvCIyXfU2mMUfyA&s" alt="YouTube" width="20px" height="20px"></a>
+            <a href="https://twitter.com/mushoai"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMY1hx2R9pS2zJJg7Q3z8YJFQAxNJAFvJ4Jw&s" alt="image" width="20px" height="20px"></a>
+        </div>
+        
+        <hr>
+    </div>
+</body>
+</html>

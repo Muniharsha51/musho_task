@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>musho.ai</title>
+    <link rel="stylesheet" href="./part1.css">
+    <link rel="stylesheet" href="./part3.css">
+    <link rel="stylesheet" href="./part6.css" >
+    <link rel="stylesheet" href="./part80.css" >
+    
+    <style>
+        body{
+            margin: 0;
+        }
+        navbar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #ffd014ff;
+            padding: 10px 5%;
+            position: fixed;
+            width: 90%; 
+             
+        }
+        
+        #links{
+            font-weight: 800;
+            display: flex;
+            gap: 30%;
+            text-align: center;
+        }
+        #beta{
+            font-size: 11px;
+            font-weight: 800;
+            background-color: white;
+            padding: 3px 7px;
+            padding-top: 4px;
+            border-radius: 30px;
+            margin-bottom: 8px;
+        }
+        #signup{
+            background-color: transparent;
+            padding: 10px 30px;
+            border: 1px solid black;
+            border-radius: 5px;
+            font-weight: 800;
+        }
+        #plugin, #plugin2{
+            padding: 10px 30px;
+            border-radius: 5px;
+            color: white;
+            background-color: black;
+            border: 0px;
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            font-weight: 800;
+        }
+        #landing{
+            background-color: #ffd014ff;
+            height: 95vh;
+            display: grid;
+        }
+        #plugin2{
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        #landinginner{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        @media all and (max-width:1024px){
+            #links{
+                display: none;
+            }
+            navbar{
+                padding: 10px;
+            }
+        }
+        @media all and (max-width:700px){
+            #plugin{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <navbar>
+        <div style="display: flex;align-items: center;gap: 5px;">
+            <span style="font-size: 25px;font-weight: 800">musho</span>
+            <p id="beta">BETA</p>
+        </div>
+
+        <div id="links" >
+            <span>Showcase</span>
+            <span>Pricing</span>
+            <span>Blog</span>
+        </div>
+
+        <div style="display: flex;gap: 10px;">
+            <button id="plugin">Get Plugin <img style="width: 17px;" src="assets/figma.png"></button>
+            <button id="signup">Sign up</button>
+        </div>
+    </navbar>
+
+    <div id="landing">
+        <div id="landinginner">
+        <img style="width: 80%;margin-top: -10%;" src="assets/9mv1a5lc.png">
+        <p>
+            With a simple prompt, Musho gets your design 80% of the way, 
+            so you have time to obsess over the final little details.</p>
+        <button id="plugin2"><img style="width: 17px;" src="assets/figma.png"> Get Musho Plugin</button>
+        </div>
+    </div>
+    <body>
+        <div class="part20">
+                <h1>One Prompt.</h1><h1>Infinite Outcomes.</h1>
+                <pre><b>Musho's advanced features refine your vision, streamline your 
+        workflow, and bring your design projects closer to excellence.</b></pre>
+        
+            <div class="part21">
+                <div id="a1"><img src="Landing.png" width="100%" height="100%" class="image-hover"></div>
+                <div id="a2"><img src="Styling.png" width="100%" height="100%" class="image-hover"></div>
+                <div id="a3"><img src="Lummi.png" width="100%" height="100%" class="image-hover"></div>
+                <div id="a4"><img src="Doodles.png" width="100%" height="100%" class="image-hover"></div>
+                <div id="a5"><img src="Slides.png" width="100%" height="100%" class="image-hover"></div>
+                <div id="a6"><img src="Redmix.png" width="100%" height="100%" class="image-hover"></div>
+                <div id="a7"><img src="Social.png" width="100%" height="100%" class="image-hover"></div>
+            </div>
+        </div>
+
+        <div class="part3">
+            <h1>See what others are <br> building with Musho.</h1>
+            <div class="part31">
+              <div class="part32">
+                <img src="./mobile.png" width="100%" height="100%"/>
+              </div>
+              <div class="part33">
+                <img src="./welcome.png" width="100%" height="100%"/>
+              </div>
+              <div class="part34">
+                <img src="./discover.png" width="100%" height="100%"/>
+              </div>
+            </div>
+            <button class="part3button" >View All Creations</button>
+          </div>
+
+        <div class="part40">
+            <img src="./part4.png" width="100%" height="100%"/>
+        </div>
+
+        <div class="part50">
+            <img src="./part5.png" width="100%" height="100%"/>
+        </div>
+
+        <div class="part60">
+            <marquee  class="marquee" >
+                <div class="grid" >
+                    <div  class="img1" width="" heigth="00px" style="grid-row:1/4;grid-column: 1/2;background-color: white;border-radius: 10px;display: flex;" >
+                    <img src="./Vijay verma.png" alt="" width="40%" height="100%" style="display: flex;">
+                    <pre style="font-size: x-large;">
+                        
+        Vijay Verma
+            <div style="position: relative;left: 10px;">
+                
+ "Musho is like a design  buddy,
+ assisting in jumpstarting the 
+ creative process by creating the 
+ initialdesign of an idea and 
+ eliminating the need to juggle 
+ between multiple inspirations."
+            </div>
+            </pre>
+            </div>
+            
+            <div  class="img1" width="" heigth="" style="grid-row:2/5;grid-column: 2/3;background-color: white;border-radius: 10px;display: flex;">
+            <img src="./Scott savarie.png" alt="" width="40%" height="100%" style="display: flex;">
+            <pre style="font-size: x-large;">
+        Scott Savarie
+                <div style="position: relative;left: 10px;">
+ "Musho is generating awesome 
+ landing pages, and this is 
+ just the first version! Wait 
+ til it can generate your 
+ design system,whip up a few 
+ alternate versions of a 
+ frame for you, or convert 
+ your designs to dark mode. Tons 
+ of possibilities and a super 
+ strong team to make them 
+ happen."
+                </div>
+                </pre>
+                </div>
+            
+            <div  class="img1" width="" heigth="" style="grid-row:1/4;grid-column: 3/4;background-color: white;border-radius: 10px;display: flex;">
+                        <img src="./Alijendra bortonia.png" alt="" width="40%" height="100%" style="display: flex;">
+                        <pre style="font-size: x-large;">
+                            
+        Alijendra Bortoni
+                <div style="position: relative;">
+ "In less than 1.5 minutes you 
+ have the ideal template for your 
+ website. I wish we had Musho 
+ before we designed our own 
+ website, and we are designers! 
+ it works as the perfect starting 
+ point (or all points if you want 
+ to use AI images). Even the copy 
+ writing was on point. Musho+ 
+ accesibility mode are the dream!"
+                </div>
+                </pre></div>
+                    <div  class="img1" width="" heigth="" style="grid-row:2/4;grid-column: 4/5;background-color: white;border-radius: 10px;display: flex;">
+                        <img src="./Vijay verma.png" alt="" width="40%" height="100%" style="display: flex;">
+                        <pre style="font-size: x-large;">
+                            
+        Vijay Verma
+                <div style="position: relative;">
+ "Musho is like a design  buddy,
+ assisting in jumpstarting the 
+ creative process by creating the 
+ initialdesign of an idea and 
+ eliminating the need to juggle 
+ between multiple inspirations."
+                </div>
+                </pre></div>
+                    <div  class="img1" width="" heigth="" style="grid-row:3/6;grid-column: 5/6;padding:10px;background-color:white;border-radius: 10px;display: flex;">
+                        <img src="./Scott savarie.png" alt="" width="40%" height="100%" style="display: flex;">
+                        <pre style="font-size: x-large;">
+                            
+        Scott Savarie
+                <div style="position: relative;">
+ "Musho is generating awesome 
+ landing pages, and this is
+ just the first version! 
+  Wait til it can generate 
+ your design system,whip
+ up a few alternate 
+ versions of a frame for 
+ you, or convert your 
+ designs to dark mode."
+                </div>
+                </pre></div>
+                    <div  class="img1" width="" heigth="" style="grid-row:2/5;grid-column: 6/7;background-color:  white;border-radius: 10px;display: flex;">
+                        <img src="./Alijendra bortonia.png" alt="" width="40%" height="100%" style="display: flex;">
+                        <pre style="font-size: x-large;">
+                            
+        Alijendra bortonia
+                <div style="position: relative;">
+                    
+ "In less than 1.5 minutes you 
+ have the ideal template for 
+ your website. I wish we had 
+ Musho before we designed our
+ own website, and we are 
+ designers!it works as the 
+ perfect starting point 
+ (or all points if you want
+ to use AI images).Even 
+ the copy writing was on point.
+                </div>
+                </pre></div>
+                    
+                    
+                <div  class="img1" width="" heigth="" style="grid-row:4/6;grid-column: 1/2;background-color: white;border-radius: 10px;display: flex;">        
+                    <img src="./Allie vogel.png" alt="" width="40%" height="100%" style="display: flex;">
+                        <pre style="font-size: x-large;">
+         Allie vogel
+                <div style="position: relative;left: 10px;">
+ "Musho is simply magic 🪄✨ Its 
+ intuitive interface coupled with 
+ AI capabilities has elevated my 
+ creativity and efficiency. Musho 
+ has truly become an indispensable 
+ companion for any designer 
+ looking to push boundaries and 
+ unlock new possibilities. 
+ Highly recommended!"
+                </div>
+                </pre></div>
+            
+                    <div  class="img1" width="" heigth="" style="grid-row:5/7;grid-column: 2/3;background-color: white;border-radius: 10px;display: flex;">
+                        <img src="./Palola batiz.png" alt="" width="40%" height="100%" style="display: flex;">
+                        <pre style="font-size: x-large;">
+         Paola Batiz
+                <div style="position: relative;left: 10px;">
+  "I've started testing out the 
+  Musho app and I'm very much in 
+  love with its capabilities. It's 
+  exciting to see the potential 
+  impact this can have on a 
+  designer, and even where it's 
+  tech will go to next. It's 
+  definitely saved me a bunch of 
+  time to just get the ball"
+                </div>
+                </pre></div>
+            
+                    <div  class="img1" width="" heigth="" style="grid-row:4/6;grid-column: 3/4;background-color:  white;border-radius: 10px;display: flex;">
+                        <img src="./Miguel camacho.png" alt="" width="40%" height="100%" style="display: flex;">
+                        <pre style="font-size: x-large;">
+                            
+          Miguel camacho
+                <div style="position: relative;left: 10px;">
+                    
+ "The best thing about Musho is 
+ that it offers more room for 
+ creativity and less time spent 
+ on the boring stuff like 
+ layouts, typography, spacing"
+                </div>
+                </pre></div>
+            
+                    <div  class="img1" width="" heigth="" style="grid-row:4/6;grid-column: 4/5;background-color:  white;border-radius: 10px;display: flex;">
+                        <img src="./Allie vogel.png" alt="" width="40%" height="100%" style="display: flex;">
+                        <pre style="font-size: x-large;">
+                            
+         Allie vogel
+                <div style="position: relative;left: 10px;">
+ "With Musho, I see a significant 
+ shift in my workflow, where I 
+ can spend less time on initial 
+ stage designs and more on 
+ developing my business. It's a 
+ tool that enhances productivity 
+ and creativity simultaneously"
+               
+                </div>
+                </pre></div>
+            
+                    <div  class="img1" width="" heigth="" style="grid-row:6/8;grid-column: 5/6;background-color: white;border-radius: 10px;display: flex;">
+                        <img src="./Palola batiz.png" alt="" width="40%" height="100%" style="display: flex;">
+                        <pre style="font-size: x-large;">
+                            
+         Paola Batiz
+                <div style="position: relative;left: 10px;">
+ "I've started testing out the 
+ Musho app and I'm very much in 
+ love with its capabilities. It's 
+ exciting to see the potential 
+ impact this can have on a 
+ designer, and even where it's 
+ tech will go to next. It's 
+ definitely saved me a bunch of"
+                </div>
+                </pre></div>
+            
+                    <div  class="img1" width="" heigth="" style="grid-row:5/7;grid-column: 6/7;background-color: white;border-radius: 10px;display: flex;">
+                        <img src="./Allie vogel.png" alt="" width="40%" height="100%" style="display: flex;">
+                        <pre style="font-size: x-large;">
+                            
+         Miguel Camacho
+                <div style="position: relative;left: 10px;">
+ "The best thing about Musho is 
+  that it offers more room for 
+ creativity and less time spent 
+ on the boring stuff like 
+ layouts, typography, spacing, 
+ etc."
+                </div>
+                </pre></div>
+                    
+                    
+                    
+            <div  class="img1" width="" heigth="" style="grid-row:6/8;grid-column: 1/2;background-color: white;border-radius: 10px;display: flex;">
+                <img src="./Andy ramos.png" alt="" width="40%" height="100%" style="display: flex;">
+                <pre style="font-size: x-large;">
+                    
+         Andy Ramos
+            <div style="position: relative;left: 10px;">
+            
+ "With Musho, I see a significant 
+ shift in my workflow, where I 
+ can spend less time on initial 
+ stage designs and more on 
+ developing my business. It's a 
+ tool that enhances productivity 
+ and creativity simultaneously"
+            </div>
+            </pre></div>
+            
+            <div  class="img1" width="" heigth="" style="grid-row:6/8;grid-column: 3/4;background-color:  white;border-radius: 10px;display: flex;">
+                <img src="./harles pattreson.png" alt="" width="40%" height="100%" style="display: flex;">
+                <pre style="font-size: x-large;">
+              
+         Charles Patterson
+            <div style="position: relative;left: 10px;">
+ "I see Musho becoming your 
+ design partner for every 
+ project. Helping you do the 
+ heavy lifting so you can focus 
+ on what matters most."
+            </div>
+            </pre></div>
+            
+            <div  class="img1" width="" heigth="" style="grid-row:6/9;grid-column: 4/5;background-color: white;border-radius: 10px;display: flex;">
+                <img src="./Andy ramos.png" alt="" width="40%" height="100%" style="display: flex;">
+                <pre style="font-size: x-large;">
+                    
+          Andy Ramos
+            <div style="position: relative;left: 10px;">
+            
+"With Musho, I see a 
+ significant shift in 
+ my workflow, where I 
+ can spend less time on 
+ initial stage designs 
+ and more on developing 
+ my business. It's a tool 
+ that enhances productivity 
+ and creativity 
+ simultaneously"
+                  
+            </div>
+            </pre></div>
+            
+            <div  class="img1" width="" heigth="" style="grid-row:7/9;grid-column: 6/7;background-color: white;border-radius: 10px;display: flex;">
+                <img src="./harles pattreson.png" alt="" width="40%" height="100%" style="display: flex;">
+                <pre style="font-size: x-large;">
+                    
+         Charless pattreson
+            <div style="position: relative;left: 10px;">
+ "The best thing about Musho is 
+ that it offers more room for 
+ creativity and less time spent 
+ on the boring stuff like 
+ layouts, typography, spacing,
+ etc."
+            </div>
+            </pre></div>
+                    
+                    
+            </div>
+            </marquee>
+        </div>
+
+        <div class="part70">
+            <img src="./part7.png" width="100%" height="100%"/>
+        </div>
+
+        <div class="part80">
+            <div class="footer">
+                <h1><strong>musho</strong></h1>
+                <div class="foot">
+                    <h5>All rights reserved</h5>
+                    <div>
+                        <a href="#">Docs</a>
+                        <a href="#">Supports</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Release</a>
+                    </div>
+                </div>
+                <div class="hello">
+                   
+                    <a href="https://www.youtube.com/@MushoAI"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzKfygGAv6R0TI5DQeFqMcvCIyXfU2mMUfyA&s" alt="YouTube" width="20px" height="20px"></a>
+                    <a href="https://twitter.com/mushoai"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMY1hx2R9pS2zJJg7Q3z8YJFQAxNJAFvJ4Jw&s" alt="image" width="20px" height="20px"></a>
+                </div>
+                
+                <hr>
+            </div>
+        </div>
+
+
+
+</body>
+</html>

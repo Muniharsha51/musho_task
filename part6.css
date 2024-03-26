@@ -1,0 +1,23 @@
+.grid{
+    display:grid;
+    grid-template-columns:600px 600px 600px 600px 600px 600px;
+    grid-template-rows:100px 100px 150px 150px 150px 150px 150px 150px 150px;
+    row-gap: 30px;
+    column-gap:30px;
+   }
+   .marquee{
+       display: inline-block;
+       width: 100%;
+       direction: left;
+       behavior: scroll;
+       overflow: hidden;
+       animation: marquee 1s linear infinite;
+      position: relative;
+      top: 0px;
+      z-index: -1;
+     }
+     .img1:hover{
+               width: 610px;
+               height: 400px;
+               border:rgb(239, 239, 130) 3px solid;
+            }
